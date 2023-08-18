@@ -1,0 +1,20 @@
+﻿<Window x:Class="Wpf_Helloworld_Review.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Helloworld_Review"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF13B5F7"/>
+                <GradientStop Color="#FFD0EBEB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="Textbox_showHello" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="767"/>
+        <Button x:Name="Button_SayHello" Content="Click Me!" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.143,0.887" Width="767" Click="Button_SayHello_Click"/>
+
+    </Grid>
+</Window>
