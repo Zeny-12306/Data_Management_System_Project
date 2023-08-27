@@ -1,0 +1,24 @@
+﻿<Page x:Class="Data_Management_System.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Data_Management_System"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="13*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="navMenu" SelectionChanged="ListBox_SelectionChanged">
+            <ListBoxItem Content="个人主页" Tag="Page1"/>
+            <ListBoxItem Content="学生成绩" Tag="DataPage"/>
+            <ListBoxItem Content="成绩分析" Tag="Page3"/>
+        </ListBox>
+
+        <Frame Grid.Column="1" Name="appFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>
