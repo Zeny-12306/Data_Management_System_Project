@@ -24,5 +24,21 @@ namespace Data_Management_System
         {
             InitializeComponent();
         }
+        //private void EditButton_Click(object sender, RoutedEventArgs e)
+        //{
+            
+        //    EditDialog editDialog = new EditDialog();
+        //    editDialog.ShowDialog();
+
+            
+        //    RefreshProfileInformation();
+        //}
+
+
+        // 刷新编辑后的学生信息
+        private void RefreshProfileInformation()
+        {
+            
+        }
     }
 }

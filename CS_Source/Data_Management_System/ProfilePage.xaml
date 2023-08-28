@@ -9,6 +9,31 @@
       Title="ProfilePage">
 
     <Grid>
-        
+        <!-- Profile Information -->
+        <StackPanel Margin="20">
+            <TextBlock Text="姓名:" FontWeight="Bold"/>
+            <TextBlock Text="周毅恒" Margin="0 5 0 15"/>
+
+            <TextBlock Text="学号:" FontWeight="Bold"/>
+            <TextBlock Text="12345" Margin="0 5 0 15"/>
+
+            <TextBlock Text="年龄:" FontWeight="Bold"/>
+            <TextBlock Text="25" Margin="0 5 0 15"/>
+
+            <TextBlock Text="班级:" FontWeight="Bold"/>
+            <TextBlock Text="电气2101班" Margin="0 5 0 15"/>
+
+            <TextBlock Text="班级职务:" FontWeight="Bold"/>
+            <TextBlock Text="班长" Margin="0 5 0 15"/>
+        </StackPanel>
+
+        <!-- Profile Image Area -->
+        <Border BorderBrush="Gray" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Placeholder for profile image -->
+            <Image Width="100" Height="100" Source="/cover2.jpg" />
+        </Border>
+
+        <!-- Edit Button in Top Right Corner -->
+        <Button Content="编辑" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0 10 10 0"/>
     </Grid>
 </Page>

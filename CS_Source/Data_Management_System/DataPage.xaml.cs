@@ -171,10 +171,10 @@ namespace Data_Management_System
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
             // Open a dialog for entering search criteria
-            SearchDialog searchDialog = new SearchDialog();
-            searchDialog.ShowDialog();
             try
             {
+                SearchDialog searchDialog = new SearchDialog();
+                searchDialog.ShowDialog();
                 connection.Open();
                 string selectQuery = "SELECT Id, Sex, Name, Grade, Age FROM student WHERE ";
                 string conStr = "";

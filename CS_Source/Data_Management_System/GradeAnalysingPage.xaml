@@ -3,12 +3,25 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
       xmlns:local="clr-namespace:Data_Management_System"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="GradeAnalysingPage">
 
     <Grid>
-        
+        <lvc:CartesianChart Name="gradeChart">
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Title="Grade1" Values="{Binding Grade1Values}"  LineSmoothness="0" />
+                <lvc:LineSeries Title="Grade2" Values="{Binding Grade2Values}"  LineSmoothness="0" />
+            </lvc:CartesianChart.Series>
+            <!-- Add more LineSeries for other grades -->
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="Semester" Labels="{Binding SemesterLabels}" />
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Score" />
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
     </Grid>
 </Page>

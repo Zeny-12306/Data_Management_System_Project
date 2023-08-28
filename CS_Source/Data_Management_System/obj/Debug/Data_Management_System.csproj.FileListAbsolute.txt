@@ -73,3 +73,9 @@ D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_Syste
 D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\bin\Debug\de\MahApps.Metro.resources.dll
 D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\obj\Debug\Data_Management_System.csproj.CopyComplete
+D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\bin\Debug\LiveCharts.dll
+D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\bin\Debug\LiveCharts.Wpf.dll
+D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\bin\Debug\LiveCharts.Wpf.pdb
+D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\bin\Debug\LiveCharts.Wpf.xml
+D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\obj\Debug\TestRangeDialog.g.cs
+D:\my program\git\Data_Management_System_Project\CS_Source\Data_Management_System\obj\Debug\TestRangeDialog.baml

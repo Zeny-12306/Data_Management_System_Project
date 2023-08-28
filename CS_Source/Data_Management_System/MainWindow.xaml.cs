@@ -13,8 +13,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
+
 namespace Data_Management_System
 {
+    public class GlobalVariables
+    {
+        public static bool is_student = false;
+        public static bool is_teacher = false;
+    }
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
@@ -23,7 +30,7 @@ namespace Data_Management_System
         public MainWindow()
         {
             InitializeComponent();
-            mainFrame.NavigationService.Navigate(new MainPage());
+            mainFrame.NavigationService.Navigate(new Log_inPage());
         }
     }
     public static class WatermarkHelper

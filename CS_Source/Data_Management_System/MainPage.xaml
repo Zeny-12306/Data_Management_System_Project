@@ -8,15 +8,19 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainPage">
 
-    <Grid>
+    <Page.Resources>
+        <ImageBrush x:Key="BackgroundBrush" ImageSource="/cover.jpg" Opacity="0.5"/>
+    </Page.Resources>
+
+    <Grid Background="{StaticResource BackgroundBrush}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="13*"/>
         </Grid.ColumnDefinitions>
         <ListBox Name="navMenu" SelectionChanged="ListBox_SelectionChanged">
-            <ListBoxItem Content="个人主页" Tag="Page1"/>
+            <ListBoxItem Content="个人主页" Tag="ProfilePage"/>
             <ListBoxItem Content="学生成绩" Tag="DataPage"/>
-            <ListBoxItem Content="成绩分析" Tag="Page3"/>
+            <ListBoxItem Content="成绩分析" Tag="GradeAnalysingPage"/>
         </ListBox>
 
         <Frame Grid.Column="1" Name="appFrame" NavigationUIVisibility="Hidden"/>

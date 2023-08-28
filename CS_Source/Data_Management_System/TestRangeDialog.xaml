@@ -1,0 +1,23 @@
+﻿<Window x:Class="Data_Management_System.TestRangeDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Data_Management_System"
+        mc:Ignorable="d"
+        Title="TestRangeDialog" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="请选择你要查询的考试范围:"/>
+            
+            <TextBlock Text="开始编号:"/>
+            <TextBox x:Name="txtStart" Width="60"/>
+
+            <TextBlock Text="结束编号:"/>
+            <TextBox x:Name="txtEnd" Width="60"/>
+
+            <Button Content="确定" Click="SaveButton_Click"/>
+            <Button Content="取消" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

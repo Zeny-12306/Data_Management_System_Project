@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Data_Management_System"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="学生信息管理系统" Height="450" Width="800">
     <Grid>
         <Image x:Name="coverpage" Margin="0,0,0,0" Source="/cover.jpg" Stretch="Fill" Opacity="0.5"/>
         <Frame x:Name="mainFrame"/>
